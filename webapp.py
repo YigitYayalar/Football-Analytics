@@ -8,7 +8,7 @@ import numpy as np
 import pickle
 import streamlit as st
 
-loaded_model = pickle.load(open('C:/Users/yayal/Machine Learning Models/player_value_prediction.sav', 'rb'))
+loaded_model = pickle.load(open('player_value_prediction.sav', 'rb'))
 
 #creating a function for Prediction
 def market_value_prediction(input_data):
