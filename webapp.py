@@ -34,7 +34,7 @@ def main():
     wins_gk = st.number_input('Goalkeeper Wins', min_value=0, value=0)
     draws_gk = st.number_input('Goalkeeper Draws', min_value=0, value=0)
     passes_pct_launched_gk = st.number_input('Goalkeeper Passes % Launched', min_value=0.0, max_value=100.0, value=0.0)
-    psnpxg_per_shot_on_target_against = st.number_input('Quality of shoots that goalkeeper faced', min_value=0.0,max_value=1.0, value=0.0)
+    psnpxg_per_shot_on_target_against = st.number_input('Quality of shoots(xG) that goalkeeper faced', min_value=0.0,max_value=1.0, value=0.0)
     clean_sheets = st.number_input('Clean Sheets', min_value=0, value=0)
     goals = st.number_input('Goals', min_value=0, value=0)
     xg_xa_per90 = st.number_input('xG + xA per 90 minutes', min_value=0.0,max_value=1.0, value=0.0)
