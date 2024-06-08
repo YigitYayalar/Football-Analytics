@@ -49,7 +49,7 @@ def main():
     passes_into_final_third = st.number_input('Passes Into Final Third', min_value=0, value=0)
     carry_distance = st.number_input('Carry Distance', min_value=0, value=0)
     dribbles_completed = st.number_input('Dribbles Completed', min_value=0, value=0)
-    height = st.number_input('Height (in cm)', min_value=150, max_value=220, value=175)
+    height = st.number_input('Height (in cm)', min_value=150, max_value=220, value=170)
     starting_ratio = st.number_input('Starting Ratio', min_value=0.0, max_value=1.0, value=0.0)
     central_midfield = st.selectbox("Please select 0 or 1 for central_midfield:", (0,1))
     defender_centre_back = st.selectbox("Please select 0 or 1 for centre back:", (0,1))
